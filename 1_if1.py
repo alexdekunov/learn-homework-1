@@ -25,7 +25,7 @@ def main():
       print(f'Да вы ещё школьник, раз вам {ege} лет')
     if 18 <= ege < 22:
       print('Вы студент')
-    else:
+    if ege >= 22:
       print('You are worker')
 
 if __name__ == "__main__":

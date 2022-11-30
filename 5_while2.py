@@ -15,13 +15,11 @@
     
 """
 
-questions_and_answers = {}
+questions_and_answers = {"Как": "Дела"}
 
 def ask_user(answers_dict):
-    """
-    Замените pass на ваш код
-    """
     pass
+      
     
 if __name__ == "__main__":
     ask_user(questions_and_answers)

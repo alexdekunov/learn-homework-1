@@ -26,6 +26,16 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.idea/
+.idea/vcs.xml
+modified:   .gitignore
+.idea/.gitignore
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/learn-homework-1.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

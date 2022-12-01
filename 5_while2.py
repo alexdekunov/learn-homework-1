@@ -12,14 +12,15 @@
 
     Пользователь: Что делаешь?
     Программа: Программирую
-    
+
 """
 
-questions_and_answers = {"Как": "Дела"}
+questions_and_answers = {"Как дела": "Хорошо!", "Что делаешь?": "Программирую"}
 
 def ask_user(answers_dict):
-    pass
-      
-    
+    while True:
+        user_say = input('Скажи что-нибудь! ')
+        print(questions_and_answers.get(user_say, 'Нет такого вопроса в словаре'))
+
 if __name__ == "__main__":
     ask_user(questions_and_answers)
